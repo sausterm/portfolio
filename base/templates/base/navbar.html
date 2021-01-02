@@ -1,0 +1,41 @@
+{% load static %}
+
+<div id="header">
+
+    <div class="top">
+
+        <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar49"><img src="{% static 'images/sloan.jpeg' %}" alt="" /></span>
+                <h1 id="title">Sloan Austermann</h1>
+                <p>Aspiring Data Science Unicorn</p>
+            </div>
+
+        <!-- Nav -->
+            <nav id="nav">
+                
+                <ul>
+                    <li><a href="{% url 'home' %}" id="home-link"><span class="icon solid fa-home">Intro</span></a></li>
+                    <li><a href="{% url 'projects' %}" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                    <li><a href="{% url 'profile' %}" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                </ul>
+            </nav>
+            
+
+    </div>
+
+    <div class="bottom">
+
+        <!-- Social Icons -->
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-instagram"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                <li><a href="#" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
+                <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+
+    </div>
+
+</div>
